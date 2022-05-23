@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgreSQLDemo", "PostgreSQLDemo\PostgreSQLDemo.csproj", "{E7E7BF65-6C55-4866-A43B-96D0D7C006F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgreSQLDemo.Data", "PostgreSQLDemo.Data\PostgreSQLDemo.Data.csproj", "{79035F98-AB8C-491E-A4D9-ED358DEFF83C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{055473CF-3439-47D1-8EAF-4A099E8C4C7F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7E7BF65-6C55-4866-A43B-96D0D7C006F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E7BF65-6C55-4866-A43B-96D0D7C006F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E7BF65-6C55-4866-A43B-96D0D7C006F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E7BF65-6C55-4866-A43B-96D0D7C006F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79035F98-AB8C-491E-A4D9-ED358DEFF83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79035F98-AB8C-491E-A4D9-ED358DEFF83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79035F98-AB8C-491E-A4D9-ED358DEFF83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79035F98-AB8C-491E-A4D9-ED358DEFF83C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45D88F8E-72D7-4328-9A78-E415B4E8AE2C}
+	EndGlobalSection
+EndGlobal
