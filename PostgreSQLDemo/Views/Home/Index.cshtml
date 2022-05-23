@@ -1,0 +1,12 @@
+﻿@model IEnumerable<PostgreSQLDemo.ViewModels.UserViewModel>
+
+@{
+    ViewData["Title"] = "PostgreSQL Demo";
+}
+
+@foreach(var user in Model) 
+{
+    <h2>First Name: @user.FirstName, Last Name: @user.LastName</h2>
+    <h2>PhoneNumber: @user.PhoneNumber</h2>
+    <h2>Address: @user.Address</h2>
+}
